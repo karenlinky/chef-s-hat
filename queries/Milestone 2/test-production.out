@@ -1,0 +1,1300 @@
+*************************** 1. row ***************************
+  UserID: Person1
+Password: pass1
+
+*************************** 2. row ***************************
+  UserID: Person10
+Password: pass10
+
+*************************** 3. row ***************************
+  UserID: Person100
+Password: pass100
+
+*************************** 4. row ***************************
+  UserID: Person11
+Password: pass11
+
+*************************** 5. row ***************************
+  UserID: Person12
+Password: pass12
+
+*************************** 6. row ***************************
+  UserID: Person13
+Password: pass13
+
+*************************** 7. row ***************************
+  UserID: Person14
+Password: pass14
+
+*************************** 8. row ***************************
+  UserID: Person15
+Password: pass15
+
+*************************** 9. row ***************************
+  UserID: Person16
+Password: pass16
+
+*************************** 10. row ***************************
+  UserID: Person17
+Password: pass17
+
+*************************** 1. row ***************************
+    RecipeID: 1
+        Name: chocolate cookies
+  SubmitDate: 0000-00-00
+    PrepTime: 20
+        Type: type1
+  Directions: directions 1
+FlagInactive: 0
+      Author: Person3
+*************************** 2. row ***************************
+    RecipeID: 2
+        Name: vanilla ice cream
+  SubmitDate: 0000-00-00
+    PrepTime: 8
+        Type: type2
+  Directions: directions 2
+FlagInactive: 0
+      Author: Person9
+*************************** 3. row ***************************
+    RecipeID: 3
+        Name: white chocolate cookies
+  SubmitDate: 0000-00-00
+    PrepTime: 25
+        Type: type1
+  Directions: directions 3
+FlagInactive: 0
+      Author: Person9
+*************************** 4. row ***************************
+    RecipeID: 4
+        Name: cheesecake
+  SubmitDate: 0000-00-00
+    PrepTime: 60
+        Type: type1
+  Directions: directions 4
+FlagInactive: 0
+      Author: Person8
+*************************** 5. row ***************************
+    RecipeID: 5
+        Name: Jamaican Jerk Chicken
+  SubmitDate: 0000-00-00
+    PrepTime: 30
+        Type: Main Dish
+  Directions: directions 5
+FlagInactive: 0
+      Author: Person3
+*************************** 6. row ***************************
+    RecipeID: 6
+        Name: Pasta Salad
+  SubmitDate: 0000-00-00
+    PrepTime: 20
+        Type: Salad
+  Directions: directions 6
+FlagInactive: 0
+      Author: Person8
+*************************** 7. row ***************************
+    RecipeID: 7
+        Name: Lasagna
+  SubmitDate: 0000-00-00
+    PrepTime: 45
+        Type: Main Dish
+  Directions: directions 7
+FlagInactive: 0
+      Author: Person10
+*************************** 8. row ***************************
+    RecipeID: 8
+        Name: Hearty Pancakes
+  SubmitDate: 0000-00-00
+    PrepTime: 20
+        Type: Breakfast
+  Directions: directions 8
+FlagInactive: 0
+      Author: Person3
+*************************** 9. row ***************************
+    RecipeID: 9
+        Name: Summer Garden Couscous Salad
+  SubmitDate: 0000-00-00
+    PrepTime: 30
+        Type: Salad
+  Directions: directions 9
+FlagInactive: 1
+      Author: Person3
+*************************** 10. row ***************************
+    RecipeID: 10
+        Name: Squash Corn Chowder
+  SubmitDate: 0000-00-00
+    PrepTime: 45
+        Type: Main Dish
+  Directions: directions 10
+FlagInactive: 0
+      Author: Person5
+*************************** 1. row ***************************
+  RecipeID: 1
+Ingredient: Broccoli
+  Quantity: 26 liters
+
+*************************** 2. row ***************************
+  RecipeID: 1
+Ingredient: Buckwheat
+  Quantity: 11 lb
+
+*************************** 3. row ***************************
+  RecipeID: 1
+Ingredient: Jalopeno Pepper
+  Quantity: 47 cups
+
+*************************** 4. row ***************************
+  RecipeID: 1
+Ingredient: Sardine
+  Quantity: 52 tbsp
+
+*************************** 5. row ***************************
+  RecipeID: 2
+Ingredient: Chicken
+  Quantity: 95 cups
+
+*************************** 6. row ***************************
+  RecipeID: 2
+Ingredient: milk
+  Quantity: 100 mL
+
+*************************** 7. row ***************************
+  RecipeID: 2
+Ingredient: Peanut
+  Quantity: 43 lb
+
+*************************** 8. row ***************************
+  RecipeID: 2
+Ingredient: Tomatoes
+  Quantity: 16 cups
+
+*************************** 9. row ***************************
+  RecipeID: 3
+Ingredient: Broccoli
+  Quantity: 65 liters
+
+*************************** 10. row ***************************
+  RecipeID: 3
+Ingredient: Chickpeas
+  Quantity: 78 kg
+
+*************************** 1. row ***************************
+      UserID: Person1
+    RecipeID: 1
+BookmarkDate: 0000-00-00
+*************************** 2. row ***************************
+      UserID: ?Person1
+    RecipeID: 2
+BookmarkDate: 0000-00-00
+*************************** 3. row ***************************
+      UserID: Person1
+    RecipeID: 3
+BookmarkDate: 0000-00-00
+*************************** 4. row ***************************
+      UserID: Person1
+    RecipeID: 26
+BookmarkDate: 0000-00-00
+*************************** 5. row ***************************
+      UserID: Person1
+    RecipeID: 29
+BookmarkDate: 0000-00-00
+*************************** 6. row ***************************
+      UserID: Person1
+    RecipeID: 107
+BookmarkDate: 0000-00-00
+*************************** 7. row ***************************
+      UserID: Person1
+    RecipeID: 129
+BookmarkDate: 0000-00-00
+*************************** 8. row ***************************
+      UserID: Person10
+    RecipeID: 4
+BookmarkDate: 0000-00-00
+*************************** 9. row ***************************
+      UserID: Person10
+    RecipeID: 22
+BookmarkDate: 0000-00-00
+*************************** 10. row ***************************
+      UserID: Person10
+    RecipeID: 24
+BookmarkDate: 0000-00-00
+*************************** 1. row ***************************
+  UserID: ?Person1
+RecipeID: 2
+  Rating: 5
+*************************** 2. row ***************************
+  UserID: Person1
+RecipeID: 3
+  Rating: 4
+*************************** 3. row ***************************
+  UserID: Person1
+RecipeID: 12
+  Rating: 5
+*************************** 4. row ***************************
+  UserID: Person1
+RecipeID: 19
+  Rating: 2
+*************************** 5. row ***************************
+  UserID: Person1
+RecipeID: 24
+  Rating: 2
+*************************** 6. row ***************************
+  UserID: Person1
+RecipeID: 29
+  Rating: 4
+*************************** 7. row ***************************
+  UserID: Person10
+RecipeID: 5
+  Rating: 1
+*************************** 8. row ***************************
+  UserID: Person10
+RecipeID: 7
+  Rating: 3
+*************************** 9. row ***************************
+  UserID: Person10
+RecipeID: 13
+  Rating: 2
+*************************** 10. row ***************************
+  UserID: Person10
+RecipeID: 15
+  Rating: 3
+*************************** 1. row ***************************
+COUNT(UserID): 1
+*************************** 1. row ***************************
+COUNT(UserID): 0
+*************************** 1. row ***************************
+  UserID: Person1
+Password: pass1
+
+*************************** 2. row ***************************
+  UserID: Person10
+Password: pass10
+
+*************************** 3. row ***************************
+  UserID: Person100
+Password: pass100
+
+*************************** 4. row ***************************
+  UserID: Person11
+Password: pass11
+
+*************************** 5. row ***************************
+  UserID: Person12
+Password: pass12
+
+*************************** 6. row ***************************
+  UserID: Person13
+Password: pass13
+
+*************************** 7. row ***************************
+  UserID: Person14
+Password: pass14
+
+*************************** 8. row ***************************
+  UserID: Person15
+Password: pass15
+
+*************************** 9. row ***************************
+  UserID: Person16
+Password: pass16
+
+*************************** 10. row ***************************
+  UserID: Person17
+Password: pass17
+
+*************************** 1. row ***************************
+COUNT(UserID): 1
+*************************** 1. row ***************************
+COUNT(UserID): 0
+*************************** 1. row ***************************
+      Name: Cloverleaf Rolls
+    Author: Person1
+SubmitDate: 0000-00-00
+  PrepTime: 30
+*************************** 2. row ***************************
+      Name: Gnocci and white beans
+    Author: Person1
+SubmitDate: 0000-00-00
+  PrepTime: 30
+*************************** 1. row ***************************
+      Name: Stir-Fry
+    Author: Person2
+SubmitDate: 0000-00-00
+  PrepTime: 25
+*************************** 2. row ***************************
+      Name: Southwest Beef & Rice Skillet
+    Author: Person2
+SubmitDate: 0000-00-00
+  PrepTime: 25
+*************************** 1. row ***************************
+    RecipeID: 1
+        Name: chocolate cookies
+  SubmitDate: 0000-00-00
+    PrepTime: 20
+        Type: type1
+  Directions: directions 1
+FlagInactive: 0
+      Author: Person3
+*************************** 2. row ***************************
+    RecipeID: 2
+        Name: vanilla ice cream
+  SubmitDate: 0000-00-00
+    PrepTime: 8
+        Type: type2
+  Directions: directions 2
+FlagInactive: 0
+      Author: Person9
+*************************** 3. row ***************************
+    RecipeID: 3
+        Name: white chocolate cookies
+  SubmitDate: 0000-00-00
+    PrepTime: 25
+        Type: type1
+  Directions: directions 3
+FlagInactive: 0
+      Author: Person9
+*************************** 4. row ***************************
+    RecipeID: 4
+        Name: cheesecake
+  SubmitDate: 0000-00-00
+    PrepTime: 60
+        Type: type1
+  Directions: directions 4
+FlagInactive: 0
+      Author: Person8
+*************************** 5. row ***************************
+    RecipeID: 5
+        Name: Jamaican Jerk Chicken
+  SubmitDate: 0000-00-00
+    PrepTime: 30
+        Type: Main Dish
+  Directions: directions 5
+FlagInactive: 0
+      Author: Person3
+*************************** 6. row ***************************
+    RecipeID: 6
+        Name: Pasta Salad
+  SubmitDate: 0000-00-00
+    PrepTime: 20
+        Type: Salad
+  Directions: directions 6
+FlagInactive: 0
+      Author: Person8
+*************************** 7. row ***************************
+    RecipeID: 7
+        Name: Lasagna
+  SubmitDate: 0000-00-00
+    PrepTime: 45
+        Type: Main Dish
+  Directions: directions 7
+FlagInactive: 0
+      Author: Person10
+*************************** 8. row ***************************
+    RecipeID: 8
+        Name: Hearty Pancakes
+  SubmitDate: 0000-00-00
+    PrepTime: 20
+        Type: Breakfast
+  Directions: directions 8
+FlagInactive: 0
+      Author: Person3
+*************************** 9. row ***************************
+    RecipeID: 9
+        Name: Summer Garden Couscous Salad
+  SubmitDate: 0000-00-00
+    PrepTime: 30
+        Type: Salad
+  Directions: directions 9
+FlagInactive: 1
+      Author: Person3
+*************************** 10. row ***************************
+    RecipeID: 10
+        Name: Squash Corn Chowder
+  SubmitDate: 0000-00-00
+    PrepTime: 45
+        Type: Main Dish
+  Directions: directions 10
+FlagInactive: 0
+      Author: Person5
+*************************** 1. row ***************************
+  RecipeID: 1
+Ingredient: Broccoli
+  Quantity: 26 liters
+
+*************************** 2. row ***************************
+  RecipeID: 1
+Ingredient: Buckwheat
+  Quantity: 11 lb
+
+*************************** 3. row ***************************
+  RecipeID: 1
+Ingredient: Jalopeno Pepper
+  Quantity: 47 cups
+
+*************************** 4. row ***************************
+  RecipeID: 1
+Ingredient: Sardine
+  Quantity: 52 tbsp
+
+*************************** 5. row ***************************
+  RecipeID: 2
+Ingredient: Chicken
+  Quantity: 95 cups
+
+*************************** 6. row ***************************
+  RecipeID: 2
+Ingredient: milk
+  Quantity: 100 mL
+
+*************************** 7. row ***************************
+  RecipeID: 2
+Ingredient: Peanut
+  Quantity: 43 lb
+
+*************************** 8. row ***************************
+  RecipeID: 2
+Ingredient: Tomatoes
+  Quantity: 16 cups
+
+*************************** 9. row ***************************
+  RecipeID: 3
+Ingredient: Broccoli
+  Quantity: 65 liters
+
+*************************** 10. row ***************************
+  RecipeID: 3
+Ingredient: Chickpeas
+  Quantity: 78 kg
+
+*************************** 1. row ***************************
+    RecipeID: 905
+        Name: water
+  SubmitDate: 2021-07-05
+    PrepTime: 1
+        Type: type3
+  Directions: directions 5
+FlagInactive: 0
+      Author: Person2
+*************************** 2. row ***************************
+    RecipeID: 1
+        Name: chocolate cookies
+  SubmitDate: 0000-00-00
+    PrepTime: 20
+        Type: type1
+  Directions: directions 1
+FlagInactive: 0
+      Author: Person3
+*************************** 3. row ***************************
+    RecipeID: 2
+        Name: vanilla ice cream
+  SubmitDate: 0000-00-00
+    PrepTime: 8
+        Type: type2
+  Directions: directions 2
+FlagInactive: 0
+      Author: Person9
+*************************** 4. row ***************************
+    RecipeID: 3
+        Name: white chocolate cookies
+  SubmitDate: 0000-00-00
+    PrepTime: 25
+        Type: type1
+  Directions: directions 3
+FlagInactive: 0
+      Author: Person9
+*************************** 5. row ***************************
+    RecipeID: 4
+        Name: cheesecake
+  SubmitDate: 0000-00-00
+    PrepTime: 60
+        Type: type1
+  Directions: directions 4
+FlagInactive: 0
+      Author: Person8
+*************************** 6. row ***************************
+    RecipeID: 5
+        Name: Jamaican Jerk Chicken
+  SubmitDate: 0000-00-00
+    PrepTime: 30
+        Type: Main Dish
+  Directions: directions 5
+FlagInactive: 0
+      Author: Person3
+*************************** 7. row ***************************
+    RecipeID: 6
+        Name: Pasta Salad
+  SubmitDate: 0000-00-00
+    PrepTime: 20
+        Type: Salad
+  Directions: directions 6
+FlagInactive: 0
+      Author: Person8
+*************************** 8. row ***************************
+    RecipeID: 7
+        Name: Lasagna
+  SubmitDate: 0000-00-00
+    PrepTime: 45
+        Type: Main Dish
+  Directions: directions 7
+FlagInactive: 0
+      Author: Person10
+*************************** 9. row ***************************
+    RecipeID: 8
+        Name: Hearty Pancakes
+  SubmitDate: 0000-00-00
+    PrepTime: 20
+        Type: Breakfast
+  Directions: directions 8
+FlagInactive: 0
+      Author: Person3
+*************************** 10. row ***************************
+    RecipeID: 9
+        Name: Summer Garden Couscous Salad
+  SubmitDate: 0000-00-00
+    PrepTime: 30
+        Type: Salad
+  Directions: directions 9
+FlagInactive: 1
+      Author: Person3
+*************************** 1. row ***************************
+    RecipeID: 1
+        Name: chocolate cookies
+  SubmitDate: 0000-00-00
+    PrepTime: 20
+        Type: type1
+  Directions: directions 1
+FlagInactive: 0
+      Author: Person3
+*************************** 2. row ***************************
+    RecipeID: 2
+        Name: vanilla ice cream
+  SubmitDate: 0000-00-00
+    PrepTime: 8
+        Type: type2
+  Directions: directions 2
+FlagInactive: 0
+      Author: Person9
+*************************** 3. row ***************************
+    RecipeID: 3
+        Name: white chocolate cookies
+  SubmitDate: 0000-00-00
+    PrepTime: 25
+        Type: type1
+  Directions: directions 3
+FlagInactive: 0
+      Author: Person9
+*************************** 4. row ***************************
+    RecipeID: 4
+        Name: cheesecake
+  SubmitDate: 0000-00-00
+    PrepTime: 60
+        Type: type1
+  Directions: directions 4
+FlagInactive: 0
+      Author: Person8
+*************************** 5. row ***************************
+    RecipeID: 5
+        Name: Jamaican Jerk Chicken
+  SubmitDate: 0000-00-00
+    PrepTime: 30
+        Type: Main Dish
+  Directions: directions 5
+FlagInactive: 0
+      Author: Person3
+*************************** 6. row ***************************
+    RecipeID: 6
+        Name: Pasta Salad
+  SubmitDate: 0000-00-00
+    PrepTime: 20
+        Type: Salad
+  Directions: directions 6
+FlagInactive: 0
+      Author: Person8
+*************************** 7. row ***************************
+    RecipeID: 7
+        Name: Lasagna
+  SubmitDate: 0000-00-00
+    PrepTime: 45
+        Type: Main Dish
+  Directions: directions 7
+FlagInactive: 0
+      Author: Person10
+*************************** 8. row ***************************
+    RecipeID: 8
+        Name: Hearty Pancakes
+  SubmitDate: 0000-00-00
+    PrepTime: 20
+        Type: Breakfast
+  Directions: directions 8
+FlagInactive: 0
+      Author: Person3
+*************************** 9. row ***************************
+    RecipeID: 9
+        Name: Summer Garden Couscous Salad
+  SubmitDate: 0000-00-00
+    PrepTime: 30
+        Type: Salad
+  Directions: directions 9
+FlagInactive: 1
+      Author: Person3
+*************************** 10. row ***************************
+    RecipeID: 10
+        Name: Squash Corn Chowder
+  SubmitDate: 0000-00-00
+    PrepTime: 45
+        Type: Main Dish
+  Directions: directions 10
+FlagInactive: 0
+      Author: Person5
+*************************** 1. row ***************************
+    RecipeID: 133
+        Name: Kung Pao Chicken
+  SubmitDate: 0000-00-00
+    PrepTime: 0
+        Type: Main Dish
+  Directions: directions 133
+FlagInactive: 0
+      Author: Person96
+*************************** 2. row ***************************
+    RecipeID: 143
+        Name: Vegetable Couscous
+  SubmitDate: 0000-00-00
+    PrepTime: 0
+        Type: Main Dish
+  Directions: directions 143
+FlagInactive: 0
+      Author: Person37
+*************************** 3. row ***************************
+    RecipeID: 126
+        Name: Sweet Potato Breakfast Burrito
+  SubmitDate: 0000-00-00
+    PrepTime: 0
+        Type: Main Dish
+  Directions: directions 126
+FlagInactive: 0
+      Author: Person34
+*************************** 4. row ***************************
+    RecipeID: 146
+        Name: Lentil Salsa Soup
+  SubmitDate: 0000-00-00
+    PrepTime: 0
+        Type: 
+  Directions: directions 146
+FlagInactive: 0
+      Author: Person33
+*************************** 5. row ***************************
+    RecipeID: 134
+        Name: Mediterranean Tuna Steaks
+  SubmitDate: 0000-00-00
+    PrepTime: 0
+        Type: Main Dish
+  Directions: directions 134
+FlagInactive: 0
+      Author: Person4
+*************************** 6. row ***************************
+    RecipeID: 145
+        Name: Roasted Mackerel
+  SubmitDate: 0000-00-00
+    PrepTime: 0
+        Type: 
+  Directions: directions 145
+FlagInactive: 0
+      Author: Person74
+*************************** 7. row ***************************
+    RecipeID: 125
+        Name: Vegetarian Chili
+  SubmitDate: 0000-00-00
+    PrepTime: 0
+        Type: Main Dish
+  Directions: directions 125
+FlagInactive: 1
+      Author: Person43
+*************************** 8. row ***************************
+    RecipeID: 129
+        Name: Brussel Honey Lentil Quinoa
+  SubmitDate: 0000-00-00
+    PrepTime: 0
+        Type: Main Dish
+  Directions: directions 129
+FlagInactive: 0
+      Author: Person51
+*************************** 9. row ***************************
+    RecipeID: 123
+        Name: Chive Butter Radishes
+  SubmitDate: 0000-00-00
+    PrepTime: 0
+        Type: 
+  Directions: directions 123
+FlagInactive: 1
+      Author: Person67
+*************************** 10. row ***************************
+    RecipeID: 135
+        Name: Spicy Black Bean Nachos
+  SubmitDate: 0000-00-00
+    PrepTime: 0
+        Type: Main Dish
+  Directions: directions 135
+FlagInactive: 0
+      Author: Person70
+*************************** 1. row ***************************
+    RecipeID: 97
+        Name: Balsamic Dijon Root Vegetables
+  SubmitDate: 0000-00-00
+    PrepTime: 150
+        Type: Main Dish
+  Directions: directions 97
+FlagInactive: 0
+      Author: Person51
+*************************** 2. row ***************************
+    RecipeID: 56
+        Name: Lemon Red Potatoes
+  SubmitDate: 0000-00-00
+    PrepTime: 150
+        Type: Side Dish
+  Directions: directions 56
+FlagInactive: 0
+      Author: Person33
+*************************** 3. row ***************************
+    RecipeID: 80
+        Name: Buckwheat Chicken Pilaf
+  SubmitDate: 0000-00-00
+    PrepTime: 120
+        Type: Main Dish
+  Directions: directions 80
+FlagInactive: 0
+      Author: Person10
+*************************** 4. row ***************************
+    RecipeID: 60
+        Name: Blueberry Pie
+  SubmitDate: 0000-00-00
+    PrepTime: 120
+        Type: Dessert
+  Directions: directions 60
+FlagInactive: 0
+      Author: Person58
+*************************** 5. row ***************************
+    RecipeID: 63
+        Name: Turkey Soup with Homemade Nood
+  SubmitDate: 0000-00-00
+    PrepTime: 120
+        Type: Main Dish
+  Directions: directions 63
+FlagInactive: 0
+      Author: Person54
+*************************** 6. row ***************************
+    RecipeID: 120
+        Name: Majoram White Wine Chicken
+  SubmitDate: 0000-00-00
+    PrepTime: 120
+        Type: Main Dish
+  Directions: directions 120
+FlagInactive: 0
+      Author: Person34
+*************************** 7. row ***************************
+    RecipeID: 62
+        Name: Browned Butter Beets
+  SubmitDate: 0000-00-00
+    PrepTime: 120
+        Type: Side Dish
+  Directions: directions 62
+FlagInactive: 0
+      Author: Person10
+*************************** 8. row ***************************
+    RecipeID: 101
+        Name: Malteese Gilatti
+  SubmitDate: 0000-00-00
+    PrepTime: 120
+        Type: Baking Basics
+  Directions: directions 101
+FlagInactive: 0
+      Author: Person66
+*************************** 9. row ***************************
+    RecipeID: 94
+        Name: Brioche Chocolate Rolls
+  SubmitDate: 0000-00-00
+    PrepTime: 120
+        Type: Baking Basics
+  Directions: directions 94
+FlagInactive: 0
+      Author: Person7
+*************************** 10. row ***************************
+    RecipeID: 14
+        Name: Pizza
+  SubmitDate: 0000-00-00
+    PrepTime: 120
+        Type: Main Dish
+  Directions: directions 14
+FlagInactive: 1
+      Author: Person10
+*************************** 1. row ***************************
+Ingredient: Broccoli
+*************************** 2. row ***************************
+Ingredient: Buckwheat
+*************************** 3. row ***************************
+Ingredient: Jalopeno Pepper
+*************************** 4. row ***************************
+Ingredient: Sardine
+*************************** 5. row ***************************
+Ingredient: Chicken
+*************************** 6. row ***************************
+Ingredient: milk
+*************************** 7. row ***************************
+Ingredient: Peanut
+*************************** 8. row ***************************
+Ingredient: Tomatoes
+*************************** 9. row ***************************
+Ingredient: Broccoli
+*************************** 10. row ***************************
+Ingredient: Chickpeas
+*************************** 1. row ***************************
+      Name: white chocolate cookies
+    Author: Person9
+SubmitDate: 0000-00-00
+  PrepTime: 25
+Ingredient: sugar
+  Quantity: 16 grams
+
+*************************** 2. row ***************************
+      Name: cheesecake
+    Author: Person8
+SubmitDate: 0000-00-00
+  PrepTime: 60
+Ingredient: sugar
+  Quantity: 2 cups
+
+*************************** 1. row ***************************
+      Name: Rustic Italian Tortellini Soup
+    Author: Person3
+SubmitDate: 0000-00-00
+  PrepTime: 30
+Ingredient: Eggs
+  Quantity: 90 tbsp
+
+*************************** 2. row ***************************
+      Name: Fried Rice
+    Author: Person8
+SubmitDate: 0000-00-00
+  PrepTime: 20
+Ingredient: Eggs
+  Quantity: 66 kg
+
+*************************** 3. row ***************************
+      Name: Whole Grain Waffles
+    Author: Person15
+SubmitDate: 0000-00-00
+  PrepTime: 25
+Ingredient: Eggs
+  Quantity: 72 ml
+
+*************************** 4. row ***************************
+      Name: Hot Chocolate
+    Author: Person18
+SubmitDate: 0000-00-00
+  PrepTime: 10
+Ingredient: Eggs
+  Quantity: 29 ml
+
+*************************** 5. row ***************************
+      Name: Paprika Pork with Roasted Pota
+    Author: Person32
+SubmitDate: 0000-00-00
+  PrepTime: 60
+Ingredient: Eggs
+  Quantity: 67 cups
+
+*************************** 6. row ***************************
+      Name: Chicken cutlets with carrot an
+    Author: Person29
+SubmitDate: 0000-00-00
+  PrepTime: 30
+Ingredient: Eggs
+  Quantity: 55 cups
+
+*************************** 7. row ***************************
+      Name: Turkey Soup with Homemade Nood
+    Author: Person54
+SubmitDate: 0000-00-00
+  PrepTime: 120
+Ingredient: Eggs
+  Quantity: 51 cups
+
+*************************** 8. row ***************************
+      Name: Italian Vegetable Lentil Soup
+    Author: Person33
+SubmitDate: 0000-00-00
+  PrepTime: 60
+Ingredient: Eggs
+  Quantity: 100 kg
+
+*************************** 9. row ***************************
+      Name: Ham & Potato Soup
+    Author: Person58
+SubmitDate: 0000-00-00
+  PrepTime: 60
+Ingredient: Eggs
+  Quantity: 6 kg
+
+*************************** 10. row ***************************
+      Name: Chickpea Masala
+    Author: Person31
+SubmitDate: 0000-00-00
+  PrepTime: 40
+Ingredient: Eggs
+  Quantity: 61 kg
+
+*************************** 1. row ***************************
+COUNT(RecipeID): 1
+*************************** 1. row ***************************
+COUNT(RecipeID): 0
+*************************** 1. row ***************************
+  UserID: Person3
+RecipeID: 2
+  Rating: 5
+*************************** 2. row ***************************
+  UserID: Person3
+RecipeID: 7
+  Rating: 4
+*************************** 3. row ***************************
+  UserID: Person3
+RecipeID: 9
+  Rating: 2
+*************************** 4. row ***************************
+  UserID: Person3
+RecipeID: 10
+  Rating: 2
+*************************** 5. row ***************************
+  UserID: Person3
+RecipeID: 13
+  Rating: 2
+*************************** 6. row ***************************
+  UserID: Person3
+RecipeID: 25
+  Rating: 3
+*************************** 7. row ***************************
+  UserID: Person3
+RecipeID: 46
+  Rating: 1
+*************************** 8. row ***************************
+  UserID: Person3
+RecipeID: 71
+  Rating: 5
+*************************** 1. row ***************************
+         Name: Lemon Dill Potatoes
+AverageRating: 5.0000
+     PrepTime: 50
+         Type: Main Dish
+       Author: Person8
+*************************** 2. row ***************************
+         Name: Gnocchi and sweet potatoes
+AverageRating: 5.0000
+     PrepTime: 20
+         Type: Main Dish
+       Author: Person11
+*************************** 3. row ***************************
+         Name: Ravioli with Snap Peas
+AverageRating: 5.0000
+     PrepTime: 40
+         Type: Main Dish
+       Author: Person5
+*************************** 4. row ***************************
+         Name: Turkey Pot Pie
+AverageRating: 5.0000
+     PrepTime: 60
+         Type: Main Dish
+       Author: Person8
+*************************** 5. row ***************************
+         Name: Baked Mostaccioli
+AverageRating: 5.0000
+     PrepTime: 90
+         Type: Main Dish
+       Author: Person13
+*************************** 6. row ***************************
+         Name: Buckwheat Chicken Pilaf
+AverageRating: 5.0000
+     PrepTime: 120
+         Type: Main Dish
+       Author: Person10
+*************************** 7. row ***************************
+         Name: Roasted Carrot & Peanut Sauce
+AverageRating: 5.0000
+     PrepTime: 75
+         Type: Main Dish
+       Author: Person66
+*************************** 8. row ***************************
+         Name: Home fries
+AverageRating: 5.0000
+     PrepTime: 45
+         Type: Side Dish
+       Author: Person22
+*************************** 9. row ***************************
+         Name: Potato Curry
+AverageRating: 4.5000
+     PrepTime: 35
+         Type: Main Dish
+       Author: Person6
+*************************** 10. row ***************************
+         Name: Lentil Rice Bowls with Egg
+AverageRating: 4.5000
+     PrepTime: 60
+         Type: Main Dish
+       Author: Person36
+*************************** 1. row ***************************
+  UserID: Person1
+Password: pass1
+
+*************************** 2. row ***************************
+  UserID: Person10
+Password: pass10
+
+*************************** 3. row ***************************
+  UserID: Person100
+Password: pass100
+
+*************************** 4. row ***************************
+  UserID: Person11
+Password: pass11
+
+*************************** 5. row ***************************
+  UserID: Person12
+Password: pass12
+
+*************************** 6. row ***************************
+  UserID: Person13
+Password: pass13
+
+*************************** 7. row ***************************
+  UserID: Person14
+Password: pass14
+
+*************************** 8. row ***************************
+  UserID: Person15
+Password: pass15
+
+*************************** 9. row ***************************
+  UserID: Person16
+Password: pass16
+
+*************************** 10. row ***************************
+  UserID: Person17
+Password: pass17
+
+*************************** 1. row ***************************
+    RecipeID: 1
+        Name: chocolate cookies
+  SubmitDate: 0000-00-00
+    PrepTime: 20
+        Type: type1
+  Directions: directions 1
+FlagInactive: 0
+      Author: Person3
+*************************** 2. row ***************************
+    RecipeID: 2
+        Name: vanilla ice cream
+  SubmitDate: 0000-00-00
+    PrepTime: 8
+        Type: type2
+  Directions: directions 2
+FlagInactive: 0
+      Author: Person9
+*************************** 3. row ***************************
+    RecipeID: 3
+        Name: white chocolate cookies
+  SubmitDate: 0000-00-00
+    PrepTime: 25
+        Type: type1
+  Directions: directions 3
+FlagInactive: 0
+      Author: Person9
+*************************** 4. row ***************************
+    RecipeID: 4
+        Name: cheesecake
+  SubmitDate: 0000-00-00
+    PrepTime: 60
+        Type: type1
+  Directions: directions 4
+FlagInactive: 0
+      Author: Person8
+*************************** 5. row ***************************
+    RecipeID: 5
+        Name: Jamaican Jerk Chicken
+  SubmitDate: 0000-00-00
+    PrepTime: 30
+        Type: Main Dish
+  Directions: directions 5
+FlagInactive: 0
+      Author: Person3
+*************************** 6. row ***************************
+    RecipeID: 6
+        Name: Pasta Salad
+  SubmitDate: 0000-00-00
+    PrepTime: 20
+        Type: Salad
+  Directions: directions 6
+FlagInactive: 0
+      Author: Person8
+*************************** 7. row ***************************
+    RecipeID: 7
+        Name: Lasagna
+  SubmitDate: 0000-00-00
+    PrepTime: 45
+        Type: Main Dish
+  Directions: directions 7
+FlagInactive: 0
+      Author: Person10
+*************************** 8. row ***************************
+    RecipeID: 8
+        Name: Hearty Pancakes
+  SubmitDate: 0000-00-00
+    PrepTime: 20
+        Type: Breakfast
+  Directions: directions 8
+FlagInactive: 0
+      Author: Person3
+*************************** 9. row ***************************
+    RecipeID: 9
+        Name: Summer Garden Couscous Salad
+  SubmitDate: 0000-00-00
+    PrepTime: 30
+        Type: Salad
+  Directions: directions 9
+FlagInactive: 1
+      Author: Person3
+*************************** 10. row ***************************
+    RecipeID: 10
+        Name: Squash Corn Chowder
+  SubmitDate: 0000-00-00
+    PrepTime: 45
+        Type: Main Dish
+  Directions: directions 10
+FlagInactive: 0
+      Author: Person5
+*************************** 1. row ***************************
+  RecipeID: 1
+Ingredient: Broccoli
+  Quantity: 26 liters
+
+*************************** 2. row ***************************
+  RecipeID: 1
+Ingredient: Buckwheat
+  Quantity: 11 lb
+
+*************************** 3. row ***************************
+  RecipeID: 1
+Ingredient: Jalopeno Pepper
+  Quantity: 47 cups
+
+*************************** 4. row ***************************
+  RecipeID: 1
+Ingredient: Sardine
+  Quantity: 52 tbsp
+
+*************************** 5. row ***************************
+  RecipeID: 2
+Ingredient: Chicken
+  Quantity: 95 cups
+
+*************************** 6. row ***************************
+  RecipeID: 2
+Ingredient: milk
+  Quantity: 100 mL
+
+*************************** 7. row ***************************
+  RecipeID: 2
+Ingredient: Peanut
+  Quantity: 43 lb
+
+*************************** 8. row ***************************
+  RecipeID: 2
+Ingredient: Tomatoes
+  Quantity: 16 cups
+
+*************************** 9. row ***************************
+  RecipeID: 3
+Ingredient: Broccoli
+  Quantity: 65 liters
+
+*************************** 10. row ***************************
+  RecipeID: 3
+Ingredient: Chickpeas
+  Quantity: 78 kg
+
+*************************** 1. row ***************************
+      UserID: Person1
+    RecipeID: 1
+BookmarkDate: 0000-00-00
+*************************** 2. row ***************************
+      UserID: ?Person1
+    RecipeID: 2
+BookmarkDate: 0000-00-00
+*************************** 3. row ***************************
+      UserID: Person1
+    RecipeID: 3
+BookmarkDate: 0000-00-00
+*************************** 4. row ***************************
+      UserID: Person1
+    RecipeID: 26
+BookmarkDate: 0000-00-00
+*************************** 5. row ***************************
+      UserID: Person1
+    RecipeID: 29
+BookmarkDate: 0000-00-00
+*************************** 6. row ***************************
+      UserID: Person1
+    RecipeID: 107
+BookmarkDate: 0000-00-00
+*************************** 7. row ***************************
+      UserID: Person1
+    RecipeID: 129
+BookmarkDate: 0000-00-00
+*************************** 8. row ***************************
+      UserID: Person10
+    RecipeID: 4
+BookmarkDate: 0000-00-00
+*************************** 9. row ***************************
+      UserID: Person10
+    RecipeID: 22
+BookmarkDate: 0000-00-00
+*************************** 10. row ***************************
+      UserID: Person10
+    RecipeID: 24
+BookmarkDate: 0000-00-00
+*************************** 1. row ***************************
+  UserID: Person10
+RecipeID: 5
+  Rating: 1
+*************************** 2. row ***************************
+  UserID: Person10
+RecipeID: 7
+  Rating: 3
+*************************** 3. row ***************************
+  UserID: Person10
+RecipeID: 13
+  Rating: 2
+*************************** 4. row ***************************
+  UserID: Person10
+RecipeID: 15
+  Rating: 3
+*************************** 5. row ***************************
+  UserID: Person10
+RecipeID: 19
+  Rating: 1
+*************************** 6. row ***************************
+  UserID: Person10
+RecipeID: 20
+  Rating: 2
+*************************** 7. row ***************************
+  UserID: Person10
+RecipeID: 21
+  Rating: 2
+*************************** 8. row ***************************
+  UserID: Person10
+RecipeID: 36
+  Rating: 4
+*************************** 9. row ***************************
+  UserID: Person10
+RecipeID: 87
+  Rating: 3
+*************************** 10. row ***************************
+  UserID: Person100
+RecipeID: 88
+  Rating: 5

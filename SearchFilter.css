@@ -1,0 +1,22 @@
+#searchFilterWrapper {
+	margin-bottom: 15px;
+}
+
+.searchFilterDropdown {
+	outline: none;
+	padding: 8px;
+	width: 175px;
+	border-radius: 8px;
+	margin: 5px 5px;
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+	border: none;
+}
+
+.searchFilterDropdown:hover {
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+
+.recipeFiltered {
+	display: none;
+}

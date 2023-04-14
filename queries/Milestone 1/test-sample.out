@@ -1,0 +1,575 @@
++---------+----------+
+| UserID  | Password |
++---------+----------+
+| Person1 | pass1    |
+| Person2 | pass2    |
+| Person3 | pass3    |
++---------+----------+
+3 rows in set (0.00 sec)
+
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+| RecipeID | Name                    | SubmitDate | PrepTime | Type  | Directions   | FlagInactive | Author  |
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+|        1 | chocolate cookies       | 2021-06-12 |       20 | type1 | directions 1 |            0 | Person1 |
+|        2 | vanilla ice cream       | 2021-06-12 |        8 | type2 | directions 2 |            0 | Person2 |
+|        3 | white chocolate cookies | 2021-06-13 |       25 | type1 | directions 3 |            0 | Person1 |
+|        4 | cheesecake              | 2021-06-13 |       60 | type1 | directions 4 |            0 | Person3 |
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+4 rows in set (0.00 sec)
+
++----------+-----------------+----------+
+| RecipeID | Ingredient      | Quantity |
++----------+-----------------+----------+
+|        1 | chocolate chips | 5        |
+|        2 | milk            | 100 mL   |
+|        3 | sugar           | 16 grams |
+|        4 | sugar           | 2 cups   |
++----------+-----------------+----------+
+4 rows in set (0.00 sec)
+
++---------+----------+--------------+
+| UserID  | RecipeID | BookmarkDate |
++---------+----------+--------------+
+| Person1 |        1 | 2021-06-13   |
+| Person1 |        2 | 2021-06-12   |
+| Person2 |        2 | 2021-06-13   |
+| Person2 |        4 | 2021-06-13   |
+| Person3 |        1 | 2021-06-12   |
++---------+----------+--------------+
+5 rows in set (0.00 sec)
+
++---------+----------+--------+
+| UserID  | RecipeID | Rating |
++---------+----------+--------+
+| Person1 |        2 |      5 |
+| Person1 |        3 |      4 |
+| Person2 |        3 |      1 |
+| Person2 |        4 |      4 |
+| Person3 |        1 |      2 |
++---------+----------+--------+
+5 rows in set (0.00 sec)
+
++---------------+
+| COUNT(UserID) |
++---------------+
+|             1 |
++---------------+
+1 row in set (0.00 sec)
+
++---------------+
+| COUNT(UserID) |
++---------------+
+|             0 |
++---------------+
+1 row in set (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
++---------+----------+
+| UserID  | Password |
++---------+----------+
+| Person1 | pass1    |
+| Person2 | pass2    |
+| Person3 | pass3    |
+| Person4 | pass4    |
++---------+----------+
+4 rows in set (0.00 sec)
+
++---------------+
+| COUNT(UserID) |
++---------------+
+|             1 |
++---------------+
+1 row in set (0.00 sec)
+
++---------------+
+| COUNT(UserID) |
++---------------+
+|             0 |
++---------------+
+1 row in set (0.00 sec)
+
++-------------------------+---------+------------+----------+
+| Name                    | Author  | SubmitDate | PrepTime |
++-------------------------+---------+------------+----------+
+| chocolate cookies       | Person1 | 2021-06-12 |       20 |
+| white chocolate cookies | Person1 | 2021-06-13 |       25 |
++-------------------------+---------+------------+----------+
+2 rows in set (0.00 sec)
+
++-------------------+---------+------------+----------+
+| Name              | Author  | SubmitDate | PrepTime |
++-------------------+---------+------------+----------+
+| vanilla ice cream | Person2 | 2021-06-12 |        8 |
++-------------------+---------+------------+----------+
+1 row in set (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+| RecipeID | Name                    | SubmitDate | PrepTime | Type  | Directions   | FlagInactive | Author  |
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+|        1 | chocolate cookies       | 2021-06-12 |       20 | type1 | directions 1 |            0 | Person1 |
+|        2 | vanilla ice cream       | 2021-06-12 |        8 | type2 | directions 2 |            0 | Person2 |
+|        3 | white chocolate cookies | 2021-06-13 |       25 | type1 | directions 3 |            0 | Person1 |
+|        4 | cheesecake              | 2021-06-13 |       60 | type1 | directions 4 |            0 | Person3 |
+|        5 | water                   | 2021-06-14 |        1 | type3 | directions 5 |            0 | Person2 |
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+5 rows in set (0.00 sec)
+
++----------+-----------------+------------+
+| RecipeID | Ingredient      | Quantity   |
++----------+-----------------+------------+
+|        1 | chocolate chips | 5          |
+|        2 | milk            | 100 mL     |
+|        3 | sugar           | 16 grams   |
+|        4 | sugar           | 2 cups     |
+|        5 | water           | any amount |
++----------+-----------------+------------+
+5 rows in set (0.00 sec)
+
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+| RecipeID | Name                    | SubmitDate | PrepTime | Type  | Directions   | FlagInactive | Author  |
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+|        5 | water                   | 2021-06-14 |        1 | type3 | directions 5 |            0 | Person2 |
+|        3 | white chocolate cookies | 2021-06-13 |       25 | type1 | directions 3 |            0 | Person1 |
+|        4 | cheesecake              | 2021-06-13 |       60 | type1 | directions 4 |            0 | Person3 |
+|        1 | chocolate cookies       | 2021-06-12 |       20 | type1 | directions 1 |            0 | Person1 |
+|        2 | vanilla ice cream       | 2021-06-12 |        8 | type2 | directions 2 |            0 | Person2 |
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+5 rows in set (0.00 sec)
+
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+| RecipeID | Name                    | SubmitDate | PrepTime | Type  | Directions   | FlagInactive | Author  |
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+|        1 | chocolate cookies       | 2021-06-12 |       20 | type1 | directions 1 |            0 | Person1 |
+|        2 | vanilla ice cream       | 2021-06-12 |        8 | type2 | directions 2 |            0 | Person2 |
+|        3 | white chocolate cookies | 2021-06-13 |       25 | type1 | directions 3 |            0 | Person1 |
+|        4 | cheesecake              | 2021-06-13 |       60 | type1 | directions 4 |            0 | Person3 |
+|        5 | water                   | 2021-06-14 |        1 | type3 | directions 5 |            0 | Person2 |
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+5 rows in set (0.00 sec)
+
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+| RecipeID | Name                    | SubmitDate | PrepTime | Type  | Directions   | FlagInactive | Author  |
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+|        5 | water                   | 2021-06-14 |        1 | type3 | directions 5 |            0 | Person2 |
+|        2 | vanilla ice cream       | 2021-06-12 |        8 | type2 | directions 2 |            0 | Person2 |
+|        1 | chocolate cookies       | 2021-06-12 |       20 | type1 | directions 1 |            0 | Person1 |
+|        3 | white chocolate cookies | 2021-06-13 |       25 | type1 | directions 3 |            0 | Person1 |
+|        4 | cheesecake              | 2021-06-13 |       60 | type1 | directions 4 |            0 | Person3 |
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+5 rows in set (0.00 sec)
+
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+| RecipeID | Name                    | SubmitDate | PrepTime | Type  | Directions   | FlagInactive | Author  |
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+|        4 | cheesecake              | 2021-06-13 |       60 | type1 | directions 4 |            0 | Person3 |
+|        3 | white chocolate cookies | 2021-06-13 |       25 | type1 | directions 3 |            0 | Person1 |
+|        1 | chocolate cookies       | 2021-06-12 |       20 | type1 | directions 1 |            0 | Person1 |
+|        2 | vanilla ice cream       | 2021-06-12 |        8 | type2 | directions 2 |            0 | Person2 |
+|        5 | water                   | 2021-06-14 |        1 | type3 | directions 5 |            0 | Person2 |
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+5 rows in set (0.00 sec)
+
++-----------------+
+| Ingredient      |
++-----------------+
+| chocolate chips |
+| milk            |
+| sugar           |
+| sugar           |
+| water           |
++-----------------+
+5 rows in set (0.00 sec)
+
++-------------------------+---------+------------+----------+------------+----------+
+| Name                    | Author  | SubmitDate | PrepTime | Ingredient | Quantity |
++-------------------------+---------+------------+----------+------------+----------+
+| white chocolate cookies | Person1 | 2021-06-13 |       25 | sugar      | 16 grams |
+| cheesecake              | Person3 | 2021-06-13 |       60 | sugar      | 2 cups   |
++-------------------------+---------+------------+----------+------------+----------+
+2 rows in set (0.00 sec)
+
+Empty set (0.00 sec)
+
++-----------------+
+| COUNT(RecipeID) |
++-----------------+
+|               1 |
++-----------------+
+1 row in set (0.00 sec)
+
++-----------------+
+| COUNT(RecipeID) |
++-----------------+
+|               0 |
++-----------------+
+1 row in set (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 2 rows affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
++---------+----------+--------+
+| UserID  | RecipeID | Rating |
++---------+----------+--------+
+| Person2 |        3 |      1 |
+| Person2 |        4 |      4 |
+| Person3 |        2 |      5 |
++---------+----------+--------+
+3 rows in set (0.00 sec)
+
++-------------------------+---------------+----------+-------+---------+
+| Name                    | AverageRating | PrepTime | Type  | Author  |
++-------------------------+---------------+----------+-------+---------+
+| vanilla ice cream       |        5.0000 |        8 | type2 | Person2 |
+| cheesecake              |        4.0000 |       60 | type1 | Person3 |
+| white chocolate cookies |        1.0000 |       25 | type1 | Person1 |
++-------------------------+---------------+----------+-------+---------+
+3 rows in set (0.00 sec)
+
++---------+----------+
+| UserID  | Password |
++---------+----------+
+| Person1 | pass1    |
+| Person2 | pass2    |
+| Person3 | pass3    |
+| Person4 | pass4    |
++---------+----------+
+4 rows in set (0.00 sec)
+
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+| RecipeID | Name                    | SubmitDate | PrepTime | Type  | Directions   | FlagInactive | Author  |
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+|        1 | chocolate cookies       | 2021-06-12 |       20 | type1 | directions 1 |            0 | Person1 |
+|        2 | vanilla ice cream       | 2021-06-12 |        8 | type2 | directions 2 |            0 | Person2 |
+|        3 | white chocolate cookies | 2021-06-13 |       25 | type1 | directions 3 |            0 | Person1 |
+|        4 | cheesecake              | 2021-06-13 |       60 | type1 | directions 4 |            0 | Person3 |
+|        5 | water                   | 2021-06-14 |        1 | type3 | directions 5 |            0 | Person2 |
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+5 rows in set (0.00 sec)
+
++----------+-----------------+------------+
+| RecipeID | Ingredient      | Quantity   |
++----------+-----------------+------------+
+|        1 | chocolate chips | 5          |
+|        2 | milk            | 100 mL     |
+|        3 | sugar           | 16 grams   |
+|        4 | sugar           | 2 cups     |
+|        5 | water           | any amount |
++----------+-----------------+------------+
+5 rows in set (0.00 sec)
+
++---------+----------+--------------+
+| UserID  | RecipeID | BookmarkDate |
++---------+----------+--------------+
+| Person1 |        1 | 2021-06-13   |
+| Person1 |        2 | 2021-06-12   |
+| Person2 |        2 | 2021-06-13   |
+| Person2 |        4 | 2021-06-13   |
+| Person3 |        1 | 2021-06-12   |
++---------+----------+--------------+
+5 rows in set (0.00 sec)
+
++---------+----------+--------+
+| UserID  | RecipeID | Rating |
++---------+----------+--------+
+| Person2 |        3 |      1 |
+| Person2 |        4 |      4 |
+| Person3 |        2 |      5 |
++---------+----------+--------+
+3 rows in set (0.00 sec)
+
+mysql> \t
+mysql> \. test-sample.sql
++---------+----------+
+| UserID  | Password |
++---------+----------+
+| Person1 | pass1    |
+| Person2 | pass2    |
+| Person3 | pass3    |
++---------+----------+
+3 rows in set (0.00 sec)
+
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+| RecipeID | Name                    | SubmitDate | PrepTime | Type  | Directions   | FlagInactive | Author  |
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+|        1 | chocolate cookies       | 2021-06-12 |       20 | type1 | directions 1 |            0 | Person1 |
+|        2 | vanilla ice cream       | 2021-06-12 |        8 | type2 | directions 2 |            0 | Person2 |
+|        3 | white chocolate cookies | 2021-06-13 |       25 | type1 | directions 3 |            0 | Person1 |
+|        4 | cheesecake              | 2021-06-13 |       60 | type1 | directions 4 |            0 | Person3 |
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+4 rows in set (0.00 sec)
+
++----------+-----------------+----------+
+| RecipeID | Ingredient      | Quantity |
++----------+-----------------+----------+
+|        1 | chocolate chips | 5        |
+|        2 | milk            | 100 mL   |
+|        3 | sugar           | 16 grams |
+|        4 | sugar           | 2 cups   |
++----------+-----------------+----------+
+4 rows in set (0.00 sec)
+
++---------+----------+--------------+
+| UserID  | RecipeID | BookmarkDate |
++---------+----------+--------------+
+| Person1 |        1 | 2021-06-13   |
+| Person1 |        2 | 2021-06-12   |
+| Person2 |        2 | 2021-06-13   |
+| Person2 |        4 | 2021-06-13   |
+| Person3 |        1 | 2021-06-12   |
++---------+----------+--------------+
+5 rows in set (0.00 sec)
+
++---------+----------+--------+
+| UserID  | RecipeID | Rating |
++---------+----------+--------+
+| Person1 |        2 |      5 |
+| Person1 |        3 |      4 |
+| Person2 |        3 |      1 |
+| Person2 |        4 |      4 |
+| Person3 |        1 |      2 |
++---------+----------+--------+
+5 rows in set (0.00 sec)
+
++---------------+
+| COUNT(UserID) |
++---------------+
+|             1 |
++---------------+
+1 row in set (0.00 sec)
+
++---------------+
+| COUNT(UserID) |
++---------------+
+|             0 |
++---------------+
+1 row in set (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
++---------+----------+
+| UserID  | Password |
++---------+----------+
+| Person1 | pass1    |
+| Person2 | pass2    |
+| Person3 | pass3    |
+| Person4 | pass4    |
++---------+----------+
+4 rows in set (0.00 sec)
+
++---------------+
+| COUNT(UserID) |
++---------------+
+|             1 |
++---------------+
+1 row in set (0.00 sec)
+
++---------------+
+| COUNT(UserID) |
++---------------+
+|             0 |
++---------------+
+1 row in set (0.00 sec)
+
++-------------------------+---------+------------+----------+
+| Name                    | Author  | SubmitDate | PrepTime |
++-------------------------+---------+------------+----------+
+| chocolate cookies       | Person1 | 2021-06-12 |       20 |
+| white chocolate cookies | Person1 | 2021-06-13 |       25 |
++-------------------------+---------+------------+----------+
+2 rows in set (0.00 sec)
+
++-------------------+---------+------------+----------+
+| Name              | Author  | SubmitDate | PrepTime |
++-------------------+---------+------------+----------+
+| vanilla ice cream | Person2 | 2021-06-12 |        8 |
++-------------------+---------+------------+----------+
+1 row in set (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+| RecipeID | Name                    | SubmitDate | PrepTime | Type  | Directions   | FlagInactive | Author  |
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+|        1 | chocolate cookies       | 2021-06-12 |       20 | type1 | directions 1 |            0 | Person1 |
+|        2 | vanilla ice cream       | 2021-06-12 |        8 | type2 | directions 2 |            0 | Person2 |
+|        3 | white chocolate cookies | 2021-06-13 |       25 | type1 | directions 3 |            0 | Person1 |
+|        4 | cheesecake              | 2021-06-13 |       60 | type1 | directions 4 |            0 | Person3 |
+|        5 | water                   | 2021-06-14 |        1 | type3 | directions 5 |            0 | Person2 |
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+5 rows in set (0.00 sec)
+
++----------+-----------------+------------+
+| RecipeID | Ingredient      | Quantity   |
++----------+-----------------+------------+
+|        1 | chocolate chips | 5          |
+|        2 | milk            | 100 mL     |
+|        3 | sugar           | 16 grams   |
+|        4 | sugar           | 2 cups     |
+|        5 | water           | any amount |
++----------+-----------------+------------+
+5 rows in set (0.00 sec)
+
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+| RecipeID | Name                    | SubmitDate | PrepTime | Type  | Directions   | FlagInactive | Author  |
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+|        5 | water                   | 2021-06-14 |        1 | type3 | directions 5 |            0 | Person2 |
+|        3 | white chocolate cookies | 2021-06-13 |       25 | type1 | directions 3 |            0 | Person1 |
+|        4 | cheesecake              | 2021-06-13 |       60 | type1 | directions 4 |            0 | Person3 |
+|        1 | chocolate cookies       | 2021-06-12 |       20 | type1 | directions 1 |            0 | Person1 |
+|        2 | vanilla ice cream       | 2021-06-12 |        8 | type2 | directions 2 |            0 | Person2 |
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+5 rows in set (0.00 sec)
+
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+| RecipeID | Name                    | SubmitDate | PrepTime | Type  | Directions   | FlagInactive | Author  |
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+|        1 | chocolate cookies       | 2021-06-12 |       20 | type1 | directions 1 |            0 | Person1 |
+|        2 | vanilla ice cream       | 2021-06-12 |        8 | type2 | directions 2 |            0 | Person2 |
+|        3 | white chocolate cookies | 2021-06-13 |       25 | type1 | directions 3 |            0 | Person1 |
+|        4 | cheesecake              | 2021-06-13 |       60 | type1 | directions 4 |            0 | Person3 |
+|        5 | water                   | 2021-06-14 |        1 | type3 | directions 5 |            0 | Person2 |
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+5 rows in set (0.00 sec)
+
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+| RecipeID | Name                    | SubmitDate | PrepTime | Type  | Directions   | FlagInactive | Author  |
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+|        5 | water                   | 2021-06-14 |        1 | type3 | directions 5 |            0 | Person2 |
+|        2 | vanilla ice cream       | 2021-06-12 |        8 | type2 | directions 2 |            0 | Person2 |
+|        1 | chocolate cookies       | 2021-06-12 |       20 | type1 | directions 1 |            0 | Person1 |
+|        3 | white chocolate cookies | 2021-06-13 |       25 | type1 | directions 3 |            0 | Person1 |
+|        4 | cheesecake              | 2021-06-13 |       60 | type1 | directions 4 |            0 | Person3 |
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+5 rows in set (0.00 sec)
+
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+| RecipeID | Name                    | SubmitDate | PrepTime | Type  | Directions   | FlagInactive | Author  |
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+|        4 | cheesecake              | 2021-06-13 |       60 | type1 | directions 4 |            0 | Person3 |
+|        3 | white chocolate cookies | 2021-06-13 |       25 | type1 | directions 3 |            0 | Person1 |
+|        1 | chocolate cookies       | 2021-06-12 |       20 | type1 | directions 1 |            0 | Person1 |
+|        2 | vanilla ice cream       | 2021-06-12 |        8 | type2 | directions 2 |            0 | Person2 |
+|        5 | water                   | 2021-06-14 |        1 | type3 | directions 5 |            0 | Person2 |
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+5 rows in set (0.00 sec)
+
++-----------------+
+| Ingredient      |
++-----------------+
+| chocolate chips |
+| milk            |
+| sugar           |
+| sugar           |
+| water           |
++-----------------+
+5 rows in set (0.00 sec)
+
++-------------------------+---------+------------+----------+------------+----------+
+| Name                    | Author  | SubmitDate | PrepTime | Ingredient | Quantity |
++-------------------------+---------+------------+----------+------------+----------+
+| white chocolate cookies | Person1 | 2021-06-13 |       25 | sugar      | 16 grams |
+| cheesecake              | Person3 | 2021-06-13 |       60 | sugar      | 2 cups   |
++-------------------------+---------+------------+----------+------------+----------+
+2 rows in set (0.00 sec)
+
+Empty set (0.00 sec)
+
++-----------------+
+| COUNT(RecipeID) |
++-----------------+
+|               1 |
++-----------------+
+1 row in set (0.00 sec)
+
++-----------------+
+| COUNT(RecipeID) |
++-----------------+
+|               0 |
++-----------------+
+1 row in set (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 2 rows affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
++---------+----------+--------+
+| UserID  | RecipeID | Rating |
++---------+----------+--------+
+| Person2 |        3 |      1 |
+| Person2 |        4 |      4 |
+| Person3 |        2 |      5 |
++---------+----------+--------+
+3 rows in set (0.00 sec)
+
++-------------------------+---------------+----------+-------+---------+
+| Name                    | AverageRating | PrepTime | Type  | Author  |
++-------------------------+---------------+----------+-------+---------+
+| vanilla ice cream       |        5.0000 |        8 | type2 | Person2 |
+| cheesecake              |        4.0000 |       60 | type1 | Person3 |
+| white chocolate cookies |        1.0000 |       25 | type1 | Person1 |
++-------------------------+---------------+----------+-------+---------+
+3 rows in set (0.00 sec)
+
++---------+----------+
+| UserID  | Password |
++---------+----------+
+| Person1 | pass1    |
+| Person2 | pass2    |
+| Person3 | pass3    |
+| Person4 | pass4    |
++---------+----------+
+4 rows in set (0.00 sec)
+
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+| RecipeID | Name                    | SubmitDate | PrepTime | Type  | Directions   | FlagInactive | Author  |
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+|        1 | chocolate cookies       | 2021-06-12 |       20 | type1 | directions 1 |            0 | Person1 |
+|        2 | vanilla ice cream       | 2021-06-12 |        8 | type2 | directions 2 |            0 | Person2 |
+|        3 | white chocolate cookies | 2021-06-13 |       25 | type1 | directions 3 |            0 | Person1 |
+|        4 | cheesecake              | 2021-06-13 |       60 | type1 | directions 4 |            0 | Person3 |
+|        5 | water                   | 2021-06-14 |        1 | type3 | directions 5 |            0 | Person2 |
++----------+-------------------------+------------+----------+-------+--------------+--------------+---------+
+5 rows in set (0.00 sec)
+
++----------+-----------------+------------+
+| RecipeID | Ingredient      | Quantity   |
++----------+-----------------+------------+
+|        1 | chocolate chips | 5          |
+|        2 | milk            | 100 mL     |
+|        3 | sugar           | 16 grams   |
+|        4 | sugar           | 2 cups     |
+|        5 | water           | any amount |
++----------+-----------------+------------+
+5 rows in set (0.00 sec)
+
++---------+----------+--------------+
+| UserID  | RecipeID | BookmarkDate |
++---------+----------+--------------+
+| Person1 |        1 | 2021-06-13   |
+| Person1 |        2 | 2021-06-12   |
+| Person2 |        2 | 2021-06-13   |
+| Person2 |        4 | 2021-06-13   |
+| Person3 |        1 | 2021-06-12   |
++---------+----------+--------------+
+5 rows in set (0.00 sec)
+
++---------+----------+--------+
+| UserID  | RecipeID | Rating |
++---------+----------+--------+
+| Person2 |        3 |      1 |
+| Person2 |        4 |      4 |
+| Person3 |        2 |      5 |
++---------+----------+--------+
+3 rows in set (0.00 sec)

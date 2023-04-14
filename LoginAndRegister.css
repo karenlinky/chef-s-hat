@@ -1,0 +1,83 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: rgb(255,227,128);
+	background: linear-gradient(90deg, rgba(255,227,128,1) 0%, rgba(255,251,126,1) 50%, rgba(255,255,233,1) 100%);
+}
+
+#wrapper {
+	width: 70%;
+	margin: 8% auto;
+	/*border: solid black 2px;*/
+	text-align: center;
+}
+
+#logoWrapper, #formWrapper {
+	display: inline-block;
+	width: 25%;
+	margin: 0px 65px;
+	min-width: 300px;
+	/*border: solid black 2px;*/
+}
+
+#formWrapper {
+	text-align: left;
+}
+
+#logo {
+	width: 300px;
+	height: 300px;
+}
+
+#formWrapper {
+	background: rgb(250, 250, 250);
+	padding: 50px 25px;
+	border-radius: 10px;
+	font-family: Helvetica;
+	color: rgb(100, 100, 100);
+	box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
+				0 32px 64px -48px rgba(0, 0, 0, 0.5);
+}
+
+.field {
+	margin: 20px 0;
+	font-size: 1.25em;
+}
+
+#siteName {
+	font-size: 2em;
+}
+
+#instruction {
+	font-size: 1.5em;
+	padding-bottom: 10px;
+	border-bottom: 1px solid rgb(100, 100, 100);
+}
+
+input[type=text], input[type=password] {
+	display: block;
+	font-size: 0.8em;
+	padding: 0 3px;
+	width: 75%;
+}
+
+input[type=submit] {
+	padding: 5px 10px;
+	background-color: white;
+	border-color: rgb(200, 200, 200);
+	border-radius: 8px;
+	color: rgb(100, 100, 100);
+}
+
+input[type=submit]:hover {
+	background-color: #fdffe5;
+	cursor: pointer;
+}
+
+.loginInvalidOutput {
+	font-size: 0.5em;
+	color: red;
+}
